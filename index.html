@@ -5,16 +5,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>We Produce</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="header">
-		<div class="container">
+		<div class="header__container container">
 			<a class="logo">Company</a>
 			<div class="header__right">
-				<button class="header__search" aria-label="Search button"></button>
+				<button class="btn-reset header__search" aria-label="Search button">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="11.7666" cy="11.7666" r="8.98856" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M18.0183 18.4851L21.5423 22" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</button>
 				<nav class="header__nav nav">
-					<ul class="nav__list">
+					<ul class="list-reset nav__list">
 						<li class="nav__item">
 							<a href="#" class="nav__link">Portfolio</a>
 						</li>
@@ -38,16 +44,16 @@
 	<main>
 		<section class="hero">
 			<div class="container">
-				<h1 class="hero__title">We&nbsp;produce the best products</h1>
+				<h1 class="hero__title">We&nbsp;produce the&nbsp;best products</h1>
 				<p class="hero__text">Mattis quam, lectus et&nbsp;justo amet, tortor, lectus dapibus est. Habitasse efficitur sodales vel est.</p>
-				<a href="#" class="btn btn--light">Button</a>
+				<button class="btn-reset btn btn--light">Button</button>
 			</div>
 		</section>
 		<section class="about">
 			<div class="container">
 				<div class="about__top">
 					<div class="about__col">
-						<ul class="about__list">
+						<ul class="list-reset about__list">
 							<li class="about__item">
 								<div class="completed">
 									<div class="completed__value">20,000</div>
@@ -80,19 +86,19 @@
 				</div>
 				<div class="about__video">
 					<video src=""></video>
-					<button class="about__play" aria-label="Play video"></button>
+					<button class="btn-reset about__play" aria-label="Play video"></button>
 				</div>
 			</div>
 		</section>
 		<section class="portfolio">
 			<h2 class="visually-hidden">Portfolio</h2>
 			<div class="container">
-				<ul class="portfolio-list">
+				<ul class="list-reset portfolio-list">
 					<li class="portfolio-item">
 						<div class="portfolio-item__col">
 							<h3 class="portfolio-item__title">Et&nbsp;odio</h3>
 							<p class="portfolio-item__descr">Mauris eget nec nulla dolor&nbsp;ex. Sodales luctus pellentesque cras ornare lorem luctus lectus sed consectetur quam, est. Libero, odi</p>
-							<a href="#" class="btn btn--dark">Button</a>
+							<button class="btn-reset btn btn--dark">Button</button>
 						</div>
 						<div class="portfolio-item__col">
 							<img src="img/port-1.jpg" class="portfolio-item__image" alt="Portfolio Et odio">
@@ -102,7 +108,7 @@
 						<div class="portfolio-item__col">
 							<h3 class="portfolio-item__title">Integer dapibus dictum</h3>
 							<p class="portfolio-item__descr">it&nbsp;pulvinar tempus amet dolor dui vulputate tortor, luctus lorem in&nbsp;nunc eleifend ipsum justo et&nbsp;venenatis dictumst.</p>
-							<a href="#" class="btn btn--dark">Button</a>
+							<button class="btn-reset btn btn--dark">Button</button>
 						</div>
 						<div class="portfolio-item__col">
 							<img src="img/port-2.jpg" class="portfolio-item__image" alt="Portfolio Et odio">
@@ -125,7 +131,7 @@
 		<section class="services">
 			<h2 class="visually-hidden">Services</h2>
 			<div class="container">
-				<ul class="services__list">
+				<ul class="list-reset services__list">
 					<li class="services-item">
 						<div class="services-item__col">
 							<h3 class="services-item__title">Branding</h3>
@@ -175,7 +181,7 @@
 			<div class="footer__col">
 				<a class="logo">Company</a>
 				<address class="footer__address">Dorivit BV, Monitorweg&nbsp;1, Almere 1322BJ, Netherlands</address>
-				<ul class="footer__social social">
+				<ul class="list-reset footer__social social">
 					<li class="social__item">
 						<a href="#" class="social__link" target="_blank" aria-label="Facebook"></a>
 					</li>
@@ -191,7 +197,7 @@
 				<h2 class="footer__title">Id&nbsp;sodales interdum dui mollis non in&nbsp;odio</h2>
 				<form action="" class="footer__form">
 					<input type="email" name="email" class="footer__input" placeholder="E-mail">
-					<button class="footer__btn" aria-label="Send E-mail"></button>
+					<button class="btn-reset footer__btn" aria-label="Send E-mail"></button>
 				</form>
 			</div>
 		</div>
